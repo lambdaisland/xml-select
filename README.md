@@ -87,19 +87,7 @@ data structures.
 
 ;; Compose to have "having" semantics, e.g. the year of all movies with genre "Crime drama"
 (xs/select [:Movies :> #(xs/select [:Genre "Crime Drama"] %) :Year] doc)
-;; => ({:tag :Movie,
-;;      :attrs {:rating "R"},
-;;      :content
-;;      [{:tag :Title, :attrs {:runtime "177"}, :content ["The Godfather"]}
-;;       {:tag :Genre, :content ["Crime Drama"]}
-;;       {:tag :Director,
-;;        :content
-;;        [{:tag :Name,
-;;          :content
-;;          [{:tag :First, :content ["Francis Ford"]}
-;;           {:tag :Last, :content ["Coppola"]}]}]}
-;;       {:tag :Studio, :content ["Paramount Pictures"]}
-;;       {:tag :Year, :content ["1972"]}]})
+;; => ({:tag :Year, :content ["1972"]})
 ```
 
 <!-- installation -->
