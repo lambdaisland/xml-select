@@ -96,13 +96,13 @@ data structures.
 To use the latest release, add the following to your `deps.edn` ([Clojure CLI](https://clojure.org/guides/deps_and_cli))
 
 ```
-com.lambdaisland/xml-select {:mvn/version "0.1.1"}
+com.lambdaisland/xml-select {:mvn/version "0.2.5"}
 ```
 
 or add the following to your `project.clj` ([Leiningen](https://leiningen.org/))
 
 ```
-[com.lambdaisland/xml-select "0.1.1"]
+[com.lambdaisland/xml-select "0.2.5"]
 ```
 <!-- /installation -->
 
