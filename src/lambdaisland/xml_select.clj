@@ -47,7 +47,9 @@
       [el]
       (mapcat #(select (rest selector) %) (:content el)))))
 
-(defn select [selector root]
+(defn select
+  "Select nodes in a clojure.data.xml style data structure, based on a selector."
+  [selector root]
   (seq
    (cond
      (empty? selector)
