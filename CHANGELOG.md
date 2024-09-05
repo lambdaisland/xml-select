@@ -1,3 +1,11 @@
+# Unreleased
+
+## Added
+
+## Fixed
+
+## Changed
+
 # 0.2.5 (2024-09-05 / a9f3072)
 
 ## Added

@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.lambdaisland</groupId>
   <artifactId>xml-select</artifactId>
-  <version>0.1.1</version>
+  <version>0.2.5</version>
   <name>xml-select</name>
   <description>XPath-style selectors in Clojure</description>
   <url>https://github.com/lambdaisland/xml-select</url>
@@ -25,7 +25,7 @@
     <url>https://github.com/lambdaisland/xml-select</url>
     <connection>scm:git:git://github.com/lambdaisland/xml-select.git</connection>
     <developerConnection>scm:git:ssh://git@github.com/lambdaisland/xml-select.git</developerConnection>
-    <tag>70ba3d7a6e4ef95c19b58322bf83e25c79449cf6</tag>
+    <tag>3c2deb0f9989a18f2482d07b755260aa555865cf</tag>
   </scm>
   <dependencies>
     <dependency>
@@ -61,7 +61,7 @@
         <configuration>
           <archive>
             <manifestEntries>
-              <git-revision>70ba3d7a6e4ef95c19b58322bf83e25c79449cf6</git-revision>
+              <git-revision>3c2deb0f9989a18f2482d07b755260aa555865cf</git-revision>
             </manifestEntries>
           </archive>
         </configuration>
